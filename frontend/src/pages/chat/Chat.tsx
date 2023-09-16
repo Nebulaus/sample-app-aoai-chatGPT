@@ -541,8 +541,8 @@ const Chat = () => {
                                 <h1 className={styles.chatEmptyStateTitle}>Start chatting to TopEndTripper</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>TopEndTripper is configured to help discover fun activities in the Northern Territory. To get started you can provide the following information that will help TopEndTripper to best provide travel recommendations:
                                 <br></br>1. Where are you currently located?
-                                <br>2. What activities they are interested in? 
-                                <br>3. How many days do you have available?</h2>
+                                <br></br>2. What activities they are interested in? 
+                                <br></br>3. How many days do you have available?</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
